@@ -1,0 +1,161 @@
+* {
+    box-sizing: border-box;
+    font-family: Averta, sans-serif;
+}
+.head{
+    height: 100%;
+    width: 100%;
+    background-image: url(./Images/background.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.idk-img{
+    margin-top: 2%;
+    margin-bottom: 1.2%;
+}
+a{
+    color: #E7332B;
+    text-decoration: none;
+}
+a:hover{
+    color: #E7332B;
+    text-decoration: none;
+}
+.hov:hover{
+    outline: #E7332B;
+    background-color: white;
+    color: #E7332B;
+}
+.cont-h2{
+    margin: 6% auto 4% auto;
+    text-align: center;
+    font-weight: 700;
+    color: #514949;
+}
+.cot{
+    margin: 0 auto 5% auto;
+    width: 60%;
+}
+.cont-p{
+    color: #514949;
+    opacity: 0.9;
+    margin-bottom: 2%;
+}
+.btn{
+    margin-top: 2%;
+    width: 19%;
+    padding: 1%;
+}
+.body{
+    background-color: white;
+    margin-top: 10%;
+}
+.slogan{
+    margin: 0 auto;
+}
+.body{
+    width: 100%;
+}
+.body-h3{
+    font-size: 100%;
+    color: #E7332B;
+}
+.upper{
+    font-size: 150%;
+    margin-bottom: 10%;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height:70%;
+    margin: auto;
+    z-index: 1;
+}
+.cards{
+    width: 60%;
+    padding: 3%;
+    margin: 1%;
+    height: 100%;
+    position: relative;
+    background-color: #FFFAFA;
+    color: #514949;
+    z-index: 1;
+}
+
+.cards p{
+    margin: 2% auto 5% auto;
+    font-size: 100%;
+    line-height: 150%;
+    color: #514949;
+    opacity: 0.8;
+}
+
+.cards img{
+    margin: 2% 70% 20% 10%;
+}
+.cards-img{
+    text-align: left;
+}
+.cards a{
+    font-size: 70%;
+    margin-top: 10%;
+    color: #E7332B;
+    text-decoration: none;
+    font-weight: 500;
+}
+.card-bg-1{
+    width: 100%;
+    position: absolute;
+    right: -50%;
+    top: -15%;
+    z-index: -1;
+    opacity: 0.3;
+}
+.card-bg-2{
+    width: 100%;
+    position: absolute;
+    right: -75.1%;
+    top: -15%;
+    z-index: -1;
+    opacity: 0.5;
+}
+a:hover{
+    color: #E7332B;
+    text-decoration: none;
+}
+footer{
+    margin-top: 13%;
+    width: 100%;
+}
+.fot-cont{
+    display: flex;
+    justify-content: space-around;
+    padding: 2%;
+    margin-bottom: 6%;
+}
+.add{
+    font-size: 100%;
+    line-height: 110%;
+    color: #514949;
+    opacity: 0.9;
+}
+footer h3{
+    font-size: 120%;
+    font-weight: bold;
+    line-height: 120%;
+    color: #514949;
+}
+.contacts a img{
+    width: 8%;
+    margin: 2%;
+}
+.own-cont p{
+    font-size: 100%;
+    line-height: 120%;
+    font-weight: bold;
+    margin-top: 3%;
+    color: #514949;
+    padding-bottom: 6%;
+}
